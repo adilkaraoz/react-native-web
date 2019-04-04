@@ -104,7 +104,7 @@ import TimePickerAndroid from './exports/TimePickerAndroid';
 import TVEventHandler from './exports/TVEventHandler';
 import VibrationIOS from './exports/VibrationIOS';
 
-export {
+const ReactNative = {
   // top-level API
   createElement,
   findNodeHandle,
@@ -209,3 +209,5 @@ export {
   TVEventHandler,
   VibrationIOS
 };
+
+export default ReactNative;
